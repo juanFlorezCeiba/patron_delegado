@@ -2,4 +2,6 @@
     <string name="app_name">PatronDelegado</string>
     <string name="titulo_main_activity">Lista de peliculas</string>
     <string name="titulo_boton_main_activity">Agregar pelicula</string>
+    <string name="titulo_agregar_eplicula">Titulo:</string>
+    <string name="anio_agregar_pelicula">Año:</string>
 </resources>

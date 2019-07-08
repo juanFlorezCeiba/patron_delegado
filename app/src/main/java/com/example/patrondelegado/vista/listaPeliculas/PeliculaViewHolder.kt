@@ -1,4 +1,4 @@
-package com.example.patrondelegado.vista
+package com.example.patrondelegado.vista.listaPeliculas
 
 import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
