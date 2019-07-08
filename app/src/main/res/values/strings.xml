@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PatronDelegado</string>
+    <string name="titulo_main_activity">Lista de peliculas</string>
+    <string name="titulo_boton_main_activity">Agregar pelicula</string>
+</resources>
