@@ -12,8 +12,6 @@ import kotlinx.android.synthetic.main.activity_dialogo_agregar_pelicula.*
 
 class DialogoAgregarPelicula : DialogFragment() {
 
-    lateinit var agregarPeliculaDelegado: AgregarPeliculaDelegado
-
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.activity_dialogo_agregar_pelicula,container)
     }
@@ -28,7 +26,7 @@ class DialogoAgregarPelicula : DialogFragment() {
 
 
     private fun accionBotonAgregarPersona(pelicula: Pelicula) {
-        agregarPeliculaDelegado.agregarPelicula(pelicula.titulo, pelicula.anio.toString())
+        Toast.makeText(this.context, "Titulo: " + pelicula.titulo + ", año: " + pelicula.anio.toString(), Toast.LENGTH_SHORT).show()
     }
 
 
