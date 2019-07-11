@@ -5,7 +5,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import com.example.patrondelegado.modelo.Pelicula
 
-class ListaPeliculasAdapter(private val listaPeliculas: ArrayList<Pelicula>): RecyclerView.Adapter<PeliculaViewHolder>() {
+class ListaPeliculasAdapter(private var listaPeliculas: ArrayList<Pelicula>): RecyclerView.Adapter<PeliculaViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PeliculaViewHolder {
         val inflater = LayoutInflater.from(parent.context)
@@ -20,5 +20,6 @@ class ListaPeliculasAdapter(private val listaPeliculas: ArrayList<Pelicula>): Re
         val pelicula: Pelicula = listaPeliculas.get(position)
         holder.bind(pelicula)
     }
+
 
 }
